@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlusButton 通常のReduceButtonを描画できる 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#008080",
+      "height": 50,
+      "justifyContent": "center",
+      "width": 50,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "white",
+        "fontSize": 20,
+      }
+    }
+  >
+    +
+  </Text>
+</TouchableOpacity>
+`;

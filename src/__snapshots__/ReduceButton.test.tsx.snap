@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReduceButton countが0の時 グレーアウトされたReduceButtonを描画できる 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  disabled={true}
+  onPress={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#008080",
+        "height": 50,
+        "justifyContent": "center",
+        "width": 50,
+      },
+      Object {
+        "backgroundColor": "gray",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "white",
+        "fontSize": 20,
+      }
+    }
+  >
+    -
+  </Text>
+</TouchableOpacity>
+`;
+
+exports[`ReduceButton countが0より大きい時 通常のReduceButtonを描画できる 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  disabled={false}
+  onPress={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#008080",
+        "height": 50,
+        "justifyContent": "center",
+        "width": 50,
+      },
+      false,
+    ]
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "white",
+        "fontSize": 20,
+      }
+    }
+  >
+    -
+  </Text>
+</TouchableOpacity>
+`;
