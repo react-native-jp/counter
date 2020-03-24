@@ -18,7 +18,7 @@ describe('ReduceButton', () => {
       const {container} = render(
         <ReduceButton count={count} setCounter={onPressEvent} />,
       );
-      fireEvent.press(container.children[0]);
+      fireEvent.(container.children[0]);
       expect(onPressEvent).toBeCalled();
       expect(onPressEvent.mock.calls[0][0]).toBe(count - 1);
     });
